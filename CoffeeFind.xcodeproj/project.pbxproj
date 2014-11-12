@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		B1137D781A13D0BC00CE828E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1137D771A13D0BC00CE828E /* main.m */; };
 		B1137D7B1A13D0BC00CE828E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1137D7A1A13D0BC00CE828E /* AppDelegate.m */; };
-		B1137D7E1A13D0BC00CE828E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1137D7D1A13D0BC00CE828E /* ViewController.m */; };
 		B1137D811A13D0BC00CE828E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1137D7F1A13D0BC00CE828E /* Main.storyboard */; };
 		B1137D831A13D0BC00CE828E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1137D821A13D0BC00CE828E /* Images.xcassets */; };
 		B1137D861A13D0BC00CE828E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1137D841A13D0BC00CE828E /* LaunchScreen.xib */; };
 		B1137D921A13D0BC00CE828E /* CoffeeFindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1137D911A13D0BC00CE828E /* CoffeeFindTests.m */; };
+		B1137DA01A13D0ED00CE828E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1137D9B1A13D0C900CE828E /* MapKit.framework */; };
+		B1137DA11A13D0F200CE828E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1137D9D1A13D0CE00CE828E /* CoreLocation.framework */; };
+		B1137DA41A13D10800CE828E /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1137DA31A13D10800CE828E /* ListViewController.m */; };
+		B1137DA71A13D81000CE828E /* CoffeePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = B1137DA61A13D81000CE828E /* CoffeePlace.m */; };
+		B1137DAA1A13E90F00CE828E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1137DA91A13E90F00CE828E /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,20 @@
 		B1137D771A13D0BC00CE828E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1137D791A13D0BC00CE828E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1137D7A1A13D0BC00CE828E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B1137D7C1A13D0BC00CE828E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B1137D7D1A13D0BC00CE828E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B1137D801A13D0BC00CE828E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1137D821A13D0BC00CE828E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B1137D851A13D0BC00CE828E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B1137D8B1A13D0BC00CE828E /* CoffeeFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1137D901A13D0BC00CE828E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1137D911A13D0BC00CE828E /* CoffeeFindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeFindTests.m; sourceTree = "<group>"; };
+		B1137D9B1A13D0C900CE828E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B1137D9D1A13D0CE00CE828E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B1137DA21A13D10800CE828E /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = ../ListViewController.h; sourceTree = "<group>"; };
+		B1137DA31A13D10800CE828E /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = ../ListViewController.m; sourceTree = "<group>"; };
+		B1137DA51A13D81000CE828E /* CoffeePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeePlace.h; sourceTree = "<group>"; };
+		B1137DA61A13D81000CE828E /* CoffeePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeePlace.m; sourceTree = "<group>"; };
+		B1137DA81A13E90F00CE828E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B1137DA91A13E90F00CE828E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1137DA11A13D0F200CE828E /* CoreLocation.framework in Frameworks */,
+				B1137DA01A13D0ED00CE828E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				B1137D741A13D0BC00CE828E /* CoffeeFind */,
+				B1137D9F1A13D0D400CE828E /* Frameworks */,
 				B1137D8E1A13D0BC00CE828E /* CoffeeFindTests */,
 				B1137D731A13D0BC00CE828E /* Products */,
 			);
@@ -83,8 +96,12 @@
 			children = (
 				B1137D791A13D0BC00CE828E /* AppDelegate.h */,
 				B1137D7A1A13D0BC00CE828E /* AppDelegate.m */,
-				B1137D7C1A13D0BC00CE828E /* ViewController.h */,
-				B1137D7D1A13D0BC00CE828E /* ViewController.m */,
+				B1137DA21A13D10800CE828E /* ListViewController.h */,
+				B1137DA31A13D10800CE828E /* ListViewController.m */,
+				B1137DA81A13E90F00CE828E /* DetailViewController.h */,
+				B1137DA91A13E90F00CE828E /* DetailViewController.m */,
+				B1137DA51A13D81000CE828E /* CoffeePlace.h */,
+				B1137DA61A13D81000CE828E /* CoffeePlace.m */,
 				B1137D7F1A13D0BC00CE828E /* Main.storyboard */,
 				B1137D821A13D0BC00CE828E /* Images.xcassets */,
 				B1137D841A13D0BC00CE828E /* LaunchScreen.xib */,
@@ -117,6 +134,15 @@
 				B1137D901A13D0BC00CE828E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1137D9F1A13D0D400CE828E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1137D9D1A13D0CE00CE828E /* CoreLocation.framework */,
+				B1137D9B1A13D0C900CE828E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1137D7E1A13D0BC00CE828E /* ViewController.m in Sources */,
+				B1137DAA1A13E90F00CE828E /* DetailViewController.m in Sources */,
 				B1137D7B1A13D0BC00CE828E /* AppDelegate.m in Sources */,
+				B1137DA71A13D81000CE828E /* CoffeePlace.m in Sources */,
 				B1137D781A13D0BC00CE828E /* main.m in Sources */,
+				B1137DA41A13D10800CE828E /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
